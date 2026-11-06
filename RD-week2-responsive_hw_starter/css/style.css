@@ -42,7 +42,27 @@ div{
   margin: 5px;
   padding: 2px;
 }
+/* Tablet view */
+@media (min-width: 772px) {
+  div {
+    display: inline-block;
+    width: 45%;
+  }
 
+  div img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 30vh;
+  }
+}
+
+/* Large screen view */
+@media (min-width: 998px) {
+  div {
+    width: 30%;
+  }
+}
 
 
 
